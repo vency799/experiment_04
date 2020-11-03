@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">exp04</string>
+    <string name="url_txt">http://</string>
+    <string name="btn">浏览该网页</string>
+    <string name="text">hello</string>
+</resources>
