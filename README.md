@@ -166,6 +166,11 @@ AndroidManifest.xml 设置 可作为第三方浏览器
 
 data scheme作为匹配规则，匹配以http或https开头的uri
 
+设置使用网络权限
+```java
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+```
+
 运行结果：
 
 ![image](https://github.com/vency799/experiment_04/blob/master/exp04_page.png)
