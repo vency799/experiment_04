@@ -160,9 +160,9 @@ AndroidManifest.xml 设置 可作为第三方浏览器
         </activity>
 ```
 
-第一组 <action android:name> 与 <category android:name> 设置为 MAIN 与 LAUNCHER，安装到模拟机上
+第一组 action android:name 与 category android:name 设置为 MAIN 与 LAUNCHER，安装到模拟机上
 
-第二组 <action android:name> 与 <category android:name>  设置为VIEW 与 DEFAULT、BROWSABLE，设置为 第三方浏览器可供系统选择
+第二组 action android:name 与 category android:name  设置为VIEW 与 DEFAULT、BROWSABLE，设置为 第三方浏览器可供系统选择
 
 data scheme作为匹配规则，匹配以http或https开头的uri
 
